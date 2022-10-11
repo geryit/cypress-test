@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "allowJs": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": ["cypress", "@percy/cypress", "node"]
+  },
+  "include": [
+    "**/*.ts",
+    "../node_modules/cypress-plugin-tab/src"
+  ]
+}
